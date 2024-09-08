@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-logo">
+            <img src="./assets/images/logo/logo-colored.png" alt="logo da Sound by Alura">
+            <h1>Rhythm</h1>
+        </div>
+        <a href="#sobre"><span>Sobre</span></a>
+    </header>
+    <section>
+        <div class="principal">
+            <div class="principal-info">
+                <!-- Desativado para analisar depois -->
+                <div class="principal-titulo">
+                    <h1>Ritmo & Música</h1>
+                    <p>Descubra o seu instrumento ideal!</p>
+                </div>
+                <p>Nosso guia completo te ajuda a escolher o instrumento musical perfeito para você, com informações detalhadas sobre cada um, desde a história até as técnicas básicas. Comece sua jornada musical agora mesmo!</p>
+                <div class="principal-input">
+                    <span class="material-symbols-outlined pesquisar" id="btn-pesquisar">
+                        search
+                    </span>
+                    <input id="campo-pesquisa" type="text" placeholder="Procure por um instrumento">
+                    <span class="material-symbols-outlined filtrar">
+                        tune
+                    </span>
+                </div>
+                <div class="filtros" style="display: none;">
+                    <ul>
+                        <li id="mostrar-todos">Mostrar todos instrumentos (7)</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Imagem visível apenas na versão tablet/desktop -->
+            <img src="" alt="">
+        </div>
+        <div class="resultados">
+            <div class="cartoes-resultado" id="cartoes_resultado"></div>
+        </div>
+        <div class="sobre">
+            <h2 id="sobre">Sobre</h2>
+            <div class="sobre-pergunta">
+                <p>Como descubro mais sobre um instrumento?</p>
+                <span>Pesquise clicando em "Ver detalhes" para se aprofundar sobre o instrumento desejado.</span>
+            </div>
+            <div class="sobre-pergunta">
+                <p>Quantos instrumentos existe no banco de dados?</p>
+                <span>Ao total são 7 instrumentos registrados, entre instrumentos de cordas, percussão, sopro e teclado.</span>
+            </div>
+            <div class="sobre-pergunta">
+                <p>Como faço para aprender um instrumento?</p>
+                <span>Clique em "Ver detalhes" e depois procure por uma vídeo aula sobre o determinado instrumento, tenho certeza que você irá gostar.</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>©️Copyright 2024 por Marcelo Gonçalves. Todos os direitos reservados.</p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="/assets/js/instrumentos.js"></script>
+    <script src="/assets/js/app.js"></script>
+</body>
+</html>
